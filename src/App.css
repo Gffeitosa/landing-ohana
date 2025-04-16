@@ -1,1 +1,40 @@
-Conteúdo fictício para App.css
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #fefefc;
+  color: #333;
+}
+
+a {
+  transition: all 0.3s ease;
+}
+
+a:hover {
+  opacity: 0.85;
+}
+
+section {
+  padding: 60px 20px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+@media screen and (max-width: 768px) {
+  h1, h2 {
+    font-size: 1.5rem;
+  }
+
+  .App a {
+    padding: 10px 16px !important;
+    font-size: 0.95rem !important;
+  }
+
+  iframe {
+    height: 280px !important;
+  }
+}
