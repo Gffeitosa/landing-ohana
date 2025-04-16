@@ -10,7 +10,7 @@ function App() {
       {/* Header */}
       <header style={{ padding: "20px", background: "#fefefc", display: "flex", justifyContent: "space-between", alignItems: "center", flexWrap: "wrap" }}>
         <img src="/logo-ohana.png" alt="Ótica Ohana" style={{ height: "50px", maxWidth: "100%" }} />
-        <a href="https://wa.me/5581999999999" target="_blank" rel="noopener noreferrer"
+        <a href="https://wa.me/5581998355571" target="_blank" rel="noopener noreferrer"
           style={{ background: "#28d6df", color: "#fff", padding: "10px 20px", borderRadius: "8px", textDecoration: "none", fontWeight: "bold", fontSize: "0.9rem" }}>
           Agendar Exame Gratuito
         </a>
@@ -28,13 +28,21 @@ function App() {
       </section>
 
       {/* Seção: Conheça nossa loja */}
-      <section style={{ padding: "60px 20px", background: "#fefefc", textAlign: "center" }}>
-        <h2 style={{ color: "#4e124b", fontSize: "28px", marginBottom: "30px" }}>Conheça nossa loja</h2>
-        <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", gap: "20px" }}>
-          <img src="/loja-ohana-1.jpg" alt="Loja Ótica Ohana 1" style={{ width: "100%", maxWidth: "400px", borderRadius: "10px" }} />
-          <img src="/loja-ohana-2.jpg" alt="Loja Ótica Ohana 2" style={{ width: "100%", maxWidth: "400px", borderRadius: "10px" }} />
-        </div>
-      </section>
+      <section style={{ padding: "60px 20px", textAlign: "center", background: "#fefefc" }}>
+  <h2 style={{ color: "#4e124b", fontSize: "28px", marginBottom: "20px" }}>
+    Como chegar até a Ótica Ohana
+  </h2>
+  <iframe
+    title="Mapa Ótica Ohana"
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6642.8077992549415!2d-34.90268244346396!3d-8.118058164908627!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ab1fc764ec1a15%3A0x21bf62bd6bc051a2!2sOTICA%20OHANA!5e0!3m2!1spt-BR!2sbr!4v1744830934831!5m2!1spt-BR!2sbr"
+    width="100%"
+    height="380"
+    style={{ border: 0, borderRadius: "12px", maxWidth: "900px" }}
+    allowFullScreen=""
+    loading="lazy"
+    referrerPolicy="no-referrer-when-downgrade"
+  ></iframe>
+</section>
 
       {/* Seção Marcas */}
       <section style={{ padding: "60px 20px", background: "#ffffff", textAlign: "center" }}>
