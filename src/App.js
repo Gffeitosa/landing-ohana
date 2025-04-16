@@ -4,9 +4,16 @@ import "./App.css";
 function App() {
   return (
     <div className="App" style={{ fontFamily: "sans-serif" }}>
-      <header style={{ padding: "20px", background: "#fefefc", display: "flex", justifyContent: "space-between", alignItems: "center" }}>
-        <img src="/logo-ohana.png" alt="Ótica Ohana" style={{ height: "40px" }} />
-        <a href="https://wa.me/5581999999999" target="_blank" rel="noreferrer" style={{ background: "#23d5de", color: "white", padding: "10px 20px", borderRadius: "30px", textDecoration: "none" }}>
+      {/* Banner no topo */}
+      <img
+        src="/banner-ohana.png"
+        alt="Banner Ótica Ohana"
+        style={{ width: "100%", display: "block" }}
+      />
+
+      <header style={{ padding: "20px", background: "#fefefc" }}>
+        <img src="/logo-ohana.png" alt="Ótica Ohana" style={{ height: "50px" }} />
+        <a href="https://wa.me/5581999999999" target="_blank" rel="noopener noreferrer">
           Agendar Exame Gratuito
         </a>
       </header>
